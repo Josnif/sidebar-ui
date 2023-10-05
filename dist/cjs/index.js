@@ -1,0 +1,1 @@
+"use strict";var e=require("react");exports.Sidebar=()=>e.createElement(e.Fragment,null,e.createElement("div",null,"Sidebar"),e.createElement("button",{type:"button",onClick:()=>alert("button clicked")},"Open Sidebar"));
