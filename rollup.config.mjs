@@ -6,6 +6,7 @@ import packageJson from "./package.json" assert { type: "json" };
 
 import postcss from "rollup-plugin-postcss";
 import terser from "@rollup/plugin-terser";
+import image from '@rollup/plugin-image';
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 
 export default [
@@ -30,6 +31,7 @@ export default [
                 plugins: []
             }),
             terser(),
+            image(),
         ],
     },
     {
